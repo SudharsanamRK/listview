@@ -2,15 +2,15 @@
 # Ex.No:7 Develop an android application to display the country name with image using list view in android studio.
 
 
-## AIM:
+## AIM
 
 To create and develop the application to display the place name with image using list view in android studio
 
-## EQUIPMENTS REQUIRED:
+## EQUIPMENTS REQUIRED
 
 Android Studio(Latest Version)
 
-## ALGORITHM:
+## ALGORITHM
 
 Step 1: Open Android Stdio and then click on File -> New -> New project.
 
@@ -26,13 +26,13 @@ Step 6: Get contacts details and Display details give in MainActivity file.
 
 Step 7: Save and run the application.
 
-## PROGRAM:
+## PROGRAM
 ```
 Program to print the list of item.
 Developed by:Sudharsanam R K
 Registeration Number :212222040163
 ```
-## activity_main.xml
+## In activity_main.xml
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -50,7 +50,7 @@ Registeration Number :212222040163
         android:listSelector="#E3B5F6" />
 </LinearLayout>
 ```
-## mainactivity.java
+## In mainactivity.java
 ```java
 package com.example.customadapter;
 
@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
-## activity_listview.xml
+## In activity_listview.xml
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
         android:textSize="20sp" />
 </LinearLayout>
 ```
-## customadapter.java
+## In customadapter.java
 ```java
 package com.example.customadapter;
 
@@ -153,7 +153,6 @@ public class CustomAdapter extends BaseAdapter {
 ```
 ## OUTPUT:
 ![image](https://github.com/SudharsanamRK/listview/assets/115523484/fc257b64-6edb-4dd1-9552-03518e03b91e)
-
 
 
 ## RESULT
