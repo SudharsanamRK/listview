@@ -57,8 +57,7 @@ import android.widget.ListView;
 public class MainActivity extends AppCompatActivity {
     ListView simpleList;
     String countryList[] = {"India", "China", "australia", "Portugal", "America", "NewZealand","Canada","Israel","Korea","Dubai","Japan"};
-```
-```
+
     int flags[] = {R.drawable.india, R.drawable.china, R.drawable.australia, R.drawable.portugal, R.drawable.america, R.drawable.new_zealand, R.drawable.canada, R.drawable.israel, R.drawable.korea, R.drawable.dubai,R.drawable.japan};
 
     @Override
@@ -117,8 +116,7 @@ public class CustomAdapter extends BaseAdapter {
     public CustomAdapter(Context applicationContext, String[] countryList, int[] flags) {
         this.context = context;
         this.countryList = countryList;
-```
-```
+
         this.flags = flags;
         inflter = (LayoutInflater.from(applicationContext));
     }
